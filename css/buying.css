@@ -82,6 +82,12 @@ html, body{
     align-items: center;
     margin: 30px 20px 0px 20px;
 }
+.button-payy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px 0px 20px;
+}
 .form_button{
     font-size: 10px;
     border: 2px solid var(--main-color);
