@@ -490,6 +490,9 @@ html, body{
     #after-header{
         font-size: 30px;
     }
+    .check{
+        width: 5%;
+    }
 }
 @media (max-width:402px){
     #after-header{
