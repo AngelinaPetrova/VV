@@ -700,6 +700,76 @@ html, body{
     border: 2px solid rgb(165, 164, 164);
     transition: all 1s ease 0s;
 }
+.wrapper-aboutus{
+    overflow: hidden;
+    width: 100%;
+    background-color: var(--accent-color);
+}
+.aboutus-container{
+    max-width: 1270px;
+    margin: 0px auto;
+    padding: 50px 10px;
+}
+.about-us-list{
+    display: block;
+    justify-content: center;
+}
+.about-v{
+    display: flex;
+    padding: 0 100px;
+    margin-bottom: 20px;
+}
+.about-v img{
+    width: 30%;
+}
+.about-v p{
+    color: rgb(105, 105, 105);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    padding: 0 50px;
+    align-self: center;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+@media(max-width:982px){
+    .about-v{
+        display: block;
+        justify-content: center;
+        padding: 0 10px;
+        margin-bottom: 20px;
+    }
+    .about-v img{
+        display: block;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+    .about-v p{
+        padding: 0 50px;
+        font-size: 16px;
+    }
+}
+@media(max-width:553px){
+    .about-v{
+        display: block;
+        justify-content: center;
+        padding: 0 10px;
+        margin-bottom: 20px;
+    }
+    .about-v img{
+        width: 100%;
+        display: block;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .about-v p{
+        padding: 0 20px;
+        text-indent: 20px;
+    }
+}
 .wrapper-footer{
     overflow: hidden;
     width: 100%;
