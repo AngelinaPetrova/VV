@@ -722,15 +722,18 @@ html, body{
 .about-v img{
     width: 30%;
 }
-.about-v p{
+.text{
+    display: block;
+    align-self: center;
+}
+.text p{
     color: rgb(105, 105, 105);
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
-    text-align: justify;
+    text-align: left;
     padding: 0 50px;
-    align-self: center;
-    line-height: 20px;
     letter-spacing: 1px;
+    margin-bottom: 10px;
 }
 @media(max-width:982px){
     .about-v{
@@ -767,7 +770,6 @@ html, body{
     }
     .about-v p{
         padding: 0 20px;
-        text-indent: 20px;
     }
 }
 .wrapper-footer{
