@@ -717,7 +717,7 @@ html, body{
 .about-v{
     display: flex;
     padding: 0 100px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .about-v img{
     width: 30%;
